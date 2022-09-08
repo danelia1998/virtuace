@@ -1,0 +1,11 @@
+{
+    "extends": "../tsconfig.json",
+    "compilerOptions": {
+        "noEmit": true,
+        "types": ["cypress-real-events", "cypress-iframe"]
+    },
+    "include": [
+        "../node_modules/cypress",
+        "./**/*.spec.ts"
+    ]
+}
